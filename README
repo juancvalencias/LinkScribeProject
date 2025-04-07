@@ -1,0 +1,31 @@
+# LinkScribe</h1>
+### Application overview</h3>
+In this application, the user will be able to enter a link from the web, this will be classified within the 16 predetermined categories:
+1. Travel
+2. Social 
+3. Networking and Messaging
+4. News
+5. Streaming Services
+6. Sports
+7. Photographys
+8. Law and Government
+9. Health and Fitness
+10. Games
+11. E-Commerce
+12. Forums
+13. Food
+14. Education
+15. Computers and Technology 
+16. Business/Corporate
+17. Adult 
+
+A brief description of the site will also be added.
+The user will have the option to store his search in the database if preferred.
+
+The application also has a search system of stored searches, just use a keyword and you will be able 
+to see which ones match your search, providing the hyperlink, the category and a brief description of the page.
+
+### Frontend and its content
+### Backend and its content
+### Frontend-backend communication
+### Considerations
