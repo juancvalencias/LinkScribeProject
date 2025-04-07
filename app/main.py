@@ -16,8 +16,8 @@ mongo_handler = MongoDBHandler()
 scraper = ScrapTool()
 text_classifier = None
 
-model_path = "./backend/data/web_classifier.joblib"  
-vectorizer_path = "./backend/data/tfidf_vectorizer.joblib"  
+model_path = "app/backend/data/web_classifier.joblib"  
+vectorizer_path = "app/backend/data/tfidf_vectorizer.joblib"  
 id_to_category = {0:"Travel", 1:"Social Networking and Messaging", 2:"News", 
                           3: "Streaming Services",4: "Sports", 5:"Photographys", 6:"Law and Government", 
                           7:"Health and Fitness" , 8:"Games", 9:"E-Commerce", 10:"Forums",

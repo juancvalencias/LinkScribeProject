@@ -1,7 +1,6 @@
 import joblib
 
 from transformers import pipeline
-
 from .scrapping_tool import ScrapTool
 
 

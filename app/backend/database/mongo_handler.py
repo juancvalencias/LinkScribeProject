@@ -1,8 +1,17 @@
+import os
+
 from pymongo import MongoClient
 from datetime import datetime
 from typing import List, Dict
+from dotenv import load_dotenv
 
-MONGO_URI = 'mongodb://localhost:27017/'
+# Load .env file
+load_dotenv()
+
+# Access environment variables
+MONGO_URI = os.getenv("MONGO_URI")
+#MONGO_URI = 'mongodb://localhost:27017/'
+
 DATABASE_NAME = 'linkscribedb'
 COLLECTION_NAME = 'searches'
 
