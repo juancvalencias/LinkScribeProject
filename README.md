@@ -17,7 +17,7 @@ By providing essential context and allowing you to categorize and search your sa
 ## Technical definition
 - Facebook BART-large-CNN: A pre-trained transformer model specifically fine-tuned for text summarization. We utilize the facebook/bart-large-cnn architecture to automatically generate concise and informative summaries of the linked web pages without requiring the user to open them. This allows for quick understanding of the link's content and context.
 - Web Scraping Model (Beautiful Soup): To extract the relevant textual content from web pages for summarization, LinkScribe employs Beautiful Soup. This Python library excels at parsing HTML and XML documents, enabling robust and efficient extraction of article text, product descriptions.
-- MongoDB (NoSQL Database): We've chosen MongoDB, a NoSQL document database, for storing link data and associated metadata (summaries, tags, categories, user notes). The key reasons for this choice include:
+- MongoDB (NoSQL Database): We've chosen MongoDB, a NoSQL document database, for storing link data and associated metadata (summaries, tags, categories). The key reasons for this choice include:
 
     Flexibility: The schema-less nature of MongoDB allows us to easily adapt to varying content structures of different web pages and accommodate future feature additions without rigid schema migrations.
     Scalability: MongoDB is designed for horizontal scaling, making it well-suited for handling a potentially large volume of user data and links.
