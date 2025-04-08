@@ -88,4 +88,4 @@ Built with FastAPI, the API offers three core methods: save to store data, searc
 - The classification model is specifically trained for English language content. Classifying web pages in other languages may result in inaccurate predictions.
 - The scraping model extracts information, including images. However, in certain instances, image extraction may fail, resulting in their absence from the output.
 
-## How to use
+
